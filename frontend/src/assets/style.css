@@ -246,23 +246,13 @@ img.cartlogo {
 .order1 .quantity {
   width: 10%;
   position: relative;
-  right: 35.6%;
+  right: 36%;
 }
 .order1 .item-price {
   width: 10%;
   position: relative;
-  right: 16.5%;
+  right: 16%;
 }
-
-/* 
-.form .order1 h4 {
-  position: absolute;
-  left: 47%;
-}
-.order1 h3 {
-  position: absolute;
-  left: 85%;
-} */
 
 .order2 {
   display: flex;
@@ -345,21 +335,6 @@ footer button {
   }
   .main li img {
     width: 25px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .main ul {
-    width: 40%;
-    font-size: 12px;
-  }
-
-  .main li img {
-    width: 30%;
-    margin-left: 2%;
-  }
-  .container .name {
-    font-size: 17px;
-    left: 35%;
   }
 }
 
@@ -479,6 +454,12 @@ footer button {
   .price {
     left: 24%;
   }
+  .order1 td.quantity {
+    right: 33%;
+  }
+  .order1 .item-price {
+    right: 23%;
+  }
 }
 /* ************************************************************* */
 @media (max-width: 500px) {
@@ -525,6 +506,13 @@ footer button {
     left: 53%;
   }
 
+  .order1 td.quantity {
+    right: 33%;
+  }
+  .order1 .item-price {
+    right: 23%;
+  }
+
   .heading h4 {
     font-size: 25px;
   }
@@ -542,6 +530,33 @@ footer button {
     left: 34%;
   }
 }
+/* ***********************************************************************/
+
+@media (max-width: 400px) {
+  .main ul {
+    width: 40%;
+    font-size: 12px;
+  }
+
+  .main li img {
+    width: 30%;
+    margin-left: 2%;
+  }
+  .container .name {
+    font-size: 17px;
+    left: 35%;
+  }
+  .order1 td.quantity {
+    right: 31%;
+  }
+}
+/* ***********************************************************************/
+@media (max-width: 395px) {
+  .order1 td.quantity {
+    right: 33%;
+  }
+}
+
 /* ***********************************************************************/
 @media (max-width: 300px) {
   .main ul {
