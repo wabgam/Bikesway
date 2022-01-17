@@ -89,12 +89,12 @@ const Shipping = () => {
     <>
       <section class="order">
         <div class="heading">
-          <p>-Order your Items-</p>
+          <h4>-Order your Items-</h4>
         </div>
       </section>
-      <br />
+      
 
-      <section>
+      <section class="formcolor">
         <div class="form">
           <div class="total">
             <h3>Shipment Details</h3>
@@ -102,8 +102,8 @@ const Shipping = () => {
             <p>Please Check Your Item and Confirm it</p>
           </div>
           <br />
-          <div class="order1">
-            <table>
+          <div>
+            <table class = "order">
             {carts &&
               carts.map((cart) => (
                 <tr>
@@ -112,10 +112,10 @@ const Shipping = () => {
                   <td class="item-price">{cart.item.price}</td>
                </tr>
               ))}
-          <tr class="order2">
-            <td>Total price</td>
-            <td>{totalitem}</td>
-            <td>${subtotal}</td>
+          <tr class="finalprice">
+            <td class= "item-name1">Total price</td>
+            <td class= "quantity">{totalitem}</td>
+            <td class="item-price">${subtotal}</td>
           </tr>
           <br />
          </table>
@@ -206,6 +206,12 @@ const Shipping = () => {
             <button onClick={orderButton}>SUBMIT</button>
           </a>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </section>
     </>
   );

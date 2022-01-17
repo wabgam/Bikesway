@@ -23,11 +23,11 @@ const Cart = () => {
 	return (
 		<>
 			<MainImage />
-			<ul>
+			<ul class= "main">
 			<li>
 
-			<div class="container">
-				<div class="one">
+			<div class="row">
+				<div class="info">
 					{
 						(carts,
 						items &&

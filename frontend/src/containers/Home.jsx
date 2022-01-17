@@ -22,8 +22,8 @@ const Home = () => {
   return (
     <>
       <MainImage />
-      <section class="mainpage">
-        <ul class="items">
+      <section class="main">
+        <ul>
           {items &&
             items.map((item) => (
               <li>

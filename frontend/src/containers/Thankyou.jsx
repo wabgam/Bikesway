@@ -9,9 +9,9 @@ const OrderConfirmation = () => {
     console.log(user);
   }, []);
   return (
-    <div>
+    <div> 
       <div class="heading">
-        <p>- Thank you for your ordering -</p>
+        <h4>- Thank you for your ordering -</h4>
       </div>
 
       <div class="note">
@@ -24,9 +24,9 @@ const OrderConfirmation = () => {
         </p>
       </div>
 
-      <div class="btn3">
+      <div >
         <a href="/">
-          <button>Back to Home</button>
+          <button class="btn3">Back to Home</button>
         </a>
       </div>
     </div>

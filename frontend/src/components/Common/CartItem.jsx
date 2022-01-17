@@ -28,28 +28,30 @@ const CartItem = ({ cart, quantity, cartId }) => {
 
   return (
     <>
-      
-      <div class="container">
-        <div class="one">
-		<img
+      <div class="row">
+        <img
           src={"https://res.cloudinary.com/www-techis-io/" + cart.image}
           class="item-image"
           alt=""
         />
+        <div class="info">
           <div class="name">{cart.name}</div>
-
-          <div class="price">$ {cart.price}</div>
-          <div class="number">
-            <span class="minus" onClick={clickMinusCart}>
-              －
-            </span>
-            <span class="count">{quantity}</span>
-            <span class="plus" onClick={clickPlusCart}>
-              +
-            </span>
+          <div class="add">
+            <div class="prize">$ {cart.price}</div>
+            <div class="number">
+              <span class="minus" onClick={clickMinusCart}>
+                －
+              </span>
+              <span class="count">{quantity}</span>
+              <span class="plus" onClick={clickPlusCart}>
+                +
+              </span>
+            </div>
           </div>
         </div>
       </div>
+
+    
     </>
   );
 };

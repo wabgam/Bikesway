@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Router from "./Router";
-import "./assets/style.css";
-import 'bootstrap/dist/css/bootstrap.css';
+import "./assets/styles/style.css";
+import './assets/styles/thankyou.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import Header from "./components/Common/Header"
 import Footer from "./components/Common/Footer";
 import { getUser } from "./reducks/users/selectors";

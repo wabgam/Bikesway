@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { signUp } from "../reducks/users/operations";
-import Cross from "../assets/img/cross.png";
+// import Cross from "../assets/img/cross.png";
 import Home from "../containers/Home";
 import { push } from "connected-react-router";
 // import Melodium from "../assets/img/Melodium.svg";
@@ -38,12 +38,8 @@ const SignUp = () => {
       
       <div class="popup-inner">
         <br/>
-        <span onClick={closeButton}>
-            <a href="./index.html">
-              <img src={Cross} alt="" />
-            </a>
-          </span>
-        <h1>Lemonade</h1>
+        
+        <h1>BikesWay</h1>
         <br/>
         <h2>SIGN UP</h2>
         <br/>
@@ -57,7 +53,7 @@ const SignUp = () => {
           <br />
           <button class="btn2" onClick={signUpButton} >Sign Up</button>
           <br /><br />
-          <p>Already a Member? <a href="./signin.html">Sign in</a></p>
+          <p>Already a Member? <a href="/Signin">Sign in</a></p>
         </div>
       </div>
     </section>

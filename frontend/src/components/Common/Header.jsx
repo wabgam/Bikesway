@@ -22,14 +22,11 @@ export default function Header() {
   }, [key]);
 
   return (
-    <section class="mainheader">
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a href="/" class="navbar-brand">
-            Lemonade
-          </a>
-          <form class="d-flex">
-            <div class="cart">
+    <section class="nav">
+      <div class="navbar">
+        <h3>BikesWay</h3>
+        <div class="signin">
+        
               {checkUser ? (
                 <span class="logout" onClick={signOutButton}>
                   Logout
@@ -41,13 +38,46 @@ export default function Header() {
               )}
               {checkUser && (
                 <a href="/cart" >
-                  <img src={CartLogo} class= "cartlogo" alt="" />
+                  <img src={CartLogo} alt="" />
                 </a>
               )}
-            </div>
-          </form>
+            
         </div>
-      </nav>
+      </div>
     </section>
+
+
+
+
+
+
+
+    // <section class="mainheader">
+    //   <nav class="navbar navbar-light bg-light">
+    //     <div class="container-fluid">
+    //       <a href="/" class="navbar-brand">
+    //         Lemonade
+    //       </a>
+    //       <form class="d-flex">
+    //         <div class="cart">
+    //           {checkUser ? (
+    //             <span class="logout" onClick={signOutButton}>
+    //               Logout
+    //             </span>
+    //           ) : (
+    //             <a href="/Signin" class="sign">
+    //               Sign in
+    //             </a>
+    //           )}
+    //           {checkUser && (
+    //             <a href="/cart" >
+    //               <img src={CartLogo} class= "cartlogo" alt="" />
+    //             </a>
+    //           )}
+    //         </div>
+    //       </form>
+    //     </div>
+    //   </nav>
+    // </section>
   );
 }

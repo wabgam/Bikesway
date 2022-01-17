@@ -46,13 +46,13 @@ const Item = ({ item }) => {
   };
   return (
 		<div>
-      	<div class="container">
-        <div class="one">
+      	<div class="row">
+       
 						<img src={item.image} alt="" />
-					
+            <div class="info">
 							<div class="name">{item.name}</div>
-							
-								<div class="price">${item.price}</div>
+							<div class="add">
+								<div class="prize">${item.price}</div>
 								{particularCart && particularCart.quantity > 0 ? (
 									<div class="number">
 										<span class="minus" onClick={clickMinusCart}>
@@ -64,13 +64,13 @@ const Item = ({ item }) => {
 										</span>
 									</div>
 								) : (
-									<div class="btn1" onClick={clickAddCart}>
+									<div class="btn" onClick={clickAddCart}>
 										Add +
 									</div>
 								)}
 							</div>
 						</div>
-
+            </div>
 			
 		</div>
 	);
