@@ -164,7 +164,7 @@ li {
 .order .quantity {
   width: 0%;
   position: relative;
-  right: 36%;
+/*   right: 36%; */
 }
 .order .item-price {
   width: 1%;
@@ -178,7 +178,11 @@ li {
   border-top: 1px solid #48597b;
   width: 60%;
 }
-
+.quantity1 {
+  width: 0%;
+  position: relative;
+  border-top: 1px solid #48597b;
+}
 
 .form input {
   width: 45%;
