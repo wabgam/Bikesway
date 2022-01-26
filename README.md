@@ -28,7 +28,7 @@ Check out [API LIVE DEMO](https://backend-bikesway.herokuapp.com/) here!!
 1. Git Clone
 
 ```
-https://github.com/samsaddam/Lemonade.git
+https://github.com/wabgam/Bikesway.git
 
 ```
 
