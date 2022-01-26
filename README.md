@@ -13,6 +13,8 @@ Customers can login and order their favourite tea from the app
 Check out [FRONTEND LIVE DEMO](https://frontend-bikesway.herokuapp.com/) here!!
 
 Check out [API LIVE DEMO](https://backend-bikesway.herokuapp.com/) here!!
+![Screenshot 2022-01-27 at 5 02 56 AM](https://user-images.githubusercontent.com/77544121/151264770-7d6bb130-e930-41b9-b4a0-d0fb43a22c56.png)
+![Screenshot 2022-01-27 at 5 06 31 AM](https://user-images.githubusercontent.com/77544121/151265044-fb722c7c-4cdc-4ba2-b6c9-144216ad6a04.png)
 
 ## Tech used
 
